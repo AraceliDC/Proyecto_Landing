@@ -131,7 +131,7 @@ body{
 
 .section img{
     width: 100%;
-    
+    object-fit: contain;
 }
 
 .section h4{
@@ -142,4 +142,100 @@ body{
 
 .section span{
     font-size: 16px;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    background-color: #C28F47;
+}
+
+.left-2{
+    display: grid;
+    place-items: center;
+}
+
+.left-2 h1{
+    font-size: 35pt;
+    color: whitesmoke;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.left-2 p{
+    font-size: 20pt;
+    color: whitesmoke;
+    margin-right: 100px;
+    margin-left: 250px;
+    margin-top: 0;
+}
+
+.left-2 a{
+    background-color: #39131D;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.left-2 a:hover{
+    text-decoration: underline;
+    background-color: #39131d88;
+}
+
+.right-2{
+    display: grid;
+    place-items: center;
+}
+
+.right-2 img{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.container-3{
+    background-color: whitesmoke;
+    height: 600px;
+}
+
+.container-3 h1{
+    font-size: 30pt;
+    font-weight: 900;
+    font: bold;
+    padding: 50px;
+    text-align: center;
+}
+
+.container-3  form >p{
+    font-size: 20pt;
+    margin-left: 700px;
+}
+
+.container-3 form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: hidden;
+    margin-bottom: 10px;
+}
+
+.container-3 form select{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: hidden;
+    margin-left: 42px;
+    margin-bottom: 10px;
+}
+
+.container-3 form textarea{
+    border-radius: 8px;
+    border: hidden;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #39131D;
+    height: 300px;
 }
