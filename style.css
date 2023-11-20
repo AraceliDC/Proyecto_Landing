@@ -97,17 +97,24 @@ body{
 }
 
 .container-1{
-    display: grid;
-    grid-template-rows: 300px;
-   
+    display: flex;
+    flex-direction: column;   
+    background-color: whitesmoke;
 }
 .up{
-    background-color: whitesmoke;
+    height: 150px;
+}
+
+.up h3{
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .down{
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 
 .section{
@@ -115,9 +122,16 @@ body{
     display: flex;
     flex-direction: column;
     width: 350px;
+    height: 400px;
     padding: 15px;
     justify-content: center;
     border-radius: 8px;
+    margin-left: 70px;
+}
+
+.section img{
+    width: 100%;
+    
 }
 
 .section h4{
