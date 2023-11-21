@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meow Café</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1a661057af.js" crossorigin="anonymous"></script>
 </head>
 <header>
     <nav>
@@ -21,7 +22,7 @@
     <div class="container">
         <div class="left-1">
             <h1>Bienvenido a</h1>
-            <img src="IMG/Meow cafe_2.png" alt="logotipo" style="margin-left: 150px;">
+            <img src="IMG/Meow cafe_2.png" alt="logotipo">
             
         </div>
         <div class="right-1">
@@ -29,7 +30,7 @@
             <p>Suscribete a nuestras newsletter y queda atento por si te llega algún descuento</p>
             <input type="email" name="email" placeholder="  ejemplo@gmail.com">
             <button><a href="#" style="padding: 12px;">ENVIAR</a></button><br>
-            <input type="checkbox" id="terminos" value="yes" style="height: 15px; width: 15px;">
+            <input type="checkbox" id="terminos" value="yes">
             <label for="terminos">Acepto terminos y condiciones.</label>
         </div>
     </div>
@@ -80,34 +81,40 @@
     </div>
     <div class="container-3">
         <h1>Contáctanos si tienes alguna duda, reclamo, sugerencia o si quieres felicitarnos</h1>
-        <form action="#" class="form">
-            <p>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="  Escriba su nombre completo" style="font-size: 12pt; color: darkgray;"/>
-            </p>
-            <p>
-                <label for="tipo">Tipo</label>
-                    <select name="tipo" style="font-size: 12pt;">
-                        <option value="seleccion" style="font-size: 12pt;">Elija una opción</option>
-                        <option value="dudas" style="font-size: 12pt;">Dudas</option>
-                        <option value="sugerencias" style="font-size: 12pt;">Sugerencias</option>
-                        <option value="reclamos" style="font-size: 12pt;">Reclamos</option>
-                        <option value="felicitaciones" style="font-size: 12pt;">Felicitaciones</option>
-                    </select>
-            </p>
-            <p>
-                <label for="comentario">Comentario</label><br />
-                <textarea name="comentario" cols="72" rows="10" style="margin-top: 10px;"></textarea>
-            </p>
-            <p>
-                    <input type="submit" value="Continuar" style="width: 500px; background-color: #39131D; font-size: 16pt; color: whitesmoke;" />
-            </p>
-        </form>
+        <div class="seccion">
+            <form action="#" class="form">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="  Escriba su nombre completo" style="font-size: 12pt; color: darkgray;"/>
+                </p>
+                <p>
+                    <label for="tipo">Tipo</label>
+                        <select name="tipo" style="font-size: 12pt;">
+                            <option value="seleccion" style="font-size: 12pt;">Elija una opción</option>
+                            <option value="dudas" style="font-size: 12pt;">Dudas</option>
+                            <option value="sugerencias" style="font-size: 12pt;">Sugerencias</option>
+                            <option value="reclamos" style="font-size: 12pt;">Reclamos</option>
+                            <option value="felicitaciones" style="font-size: 12pt;">Felicitaciones</option>
+                        </select>
+                </p>
+                <p>
+                    <label for="comentario">Comentario</label><br />
+                    <textarea name="comentario" cols="72" rows="10" style="margin-top: 10px;"></textarea>
+                </p>
+                <p>
+                        <input type="submit" value="Continuar" style="width: 500px; background-color: #39131D; font-size: 16pt; color: whitesmoke;" />
+                </p>
+            </form>
+        </div>
     </div>
 </body>
 <footer class="footer">
+    <p>Siguenos en nuestras redes sociales</p>
     <div class="container-4">
-
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
     </div>
 </footer>
 </html>
