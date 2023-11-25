@@ -27,8 +27,9 @@
         </div>
         <div class="right-1">
             <h2>Un lugar donde puedes disfrutar de un buen momento junto a tus michi-anfitriones favoritos</h2>
+            <a href="#" id="saludo">Obten tu Michi-saludo personalizado aquí</a>
             <p>Suscribete a nuestras newsletter y queda atento por si te llega algún descuento</p>
-            <input type="email" name="email" placeholder="  ejemplo@gmail.com">
+            <input type="email" name="email" placeholder="  ejemplo@gmail.com" autocomplete="off">
             <button><a href="#" style="padding: 12px;">ENVIAR</a></button><br>
             <input type="checkbox" id="terminos" value="yes">
             <label for="terminos">Acepto terminos y condiciones.</label>
@@ -85,11 +86,11 @@
             <form action="#" class="form">
                 <p>
                     <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" placeholder="  Escriba su nombre completo" style="font-size: 12pt; color: darkgray;"/>
+                    <input type="text" id="nombre" name="nombre" placeholder="  Escriba su nombre completo" style="font-size: 12pt;"/>
                 </p>
                 <p>
                     <label for="tipo">Tipo</label>
-                        <select name="tipo" style="font-size: 12pt;">
+                        <select name="tipo" id="tipo" style="font-size: 12pt;">
                             <option value="seleccion" style="font-size: 12pt;">Elija una opción</option>
                             <option value="dudas" style="font-size: 12pt;">Dudas</option>
                             <option value="sugerencias" style="font-size: 12pt;">Sugerencias</option>
@@ -99,22 +100,30 @@
                 </p>
                 <p>
                     <label for="comentario">Comentario</label><br />
-                    <textarea name="comentario" cols="72" rows="10" style="margin-top: 10px;"></textarea>
+                    <textarea name="comentario" id="comentario" cols="72" rows="10" style="margin-top: 10px;"></textarea>
                 </p>
                 <p>
-                        <input type="submit" value="Continuar" style="width: 500px; background-color: #39131D; font-size: 16pt; color: whitesmoke;" />
+                        <input type="submit" id="submit" value="Continuar" />
                 </p>
             </form>
         </div>
     </div>
-</body>
-<footer class="footer">
-    <p>Siguenos en nuestras redes sociales</p>
-    <div class="container-4">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <div class="footer">
+       <div class="columnas">
+            <img src="IMG/Meow cafe_3.png" alt="logo">
+        </div>
+        <div class="columnas-1" id="columnas-1">
+            <p>Horarios: <br>Martes a viernes: 10:00am - 19:00pm <br>Sabados, Domingos y festivos: 13:00pm - 19:00pm <br>Lunes cerrados.</p>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="columnas-2" id="columnas-2">
+            <p>Siguenos en nuestras redes sociales y mantente informado de todas nuestras novedades</p>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </div>
-</footer>
+</body>
 </html>
