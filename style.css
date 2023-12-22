@@ -241,7 +241,7 @@ body {
 /*parte4*/
 .container-3 {
     background-color: whitesmoke;
-    height: 500px;
+    height: 550px;
     margin: 0%;
     padding: 0%;
 }
@@ -266,6 +266,14 @@ body {
     border: hidden;
     margin-bottom: 10px;
     cursor: url(IMG/paw-solid.svg), auto;
+}
+
+#nombre{
+    margin-left: 7px;
+}
+
+#email{
+    margin-left: 14px;
 }
 
 .container-3 form select {
@@ -380,11 +388,13 @@ body {
     }
     .container-3 {
         height: 600px;
-        margin-top: 0px;
+        margin-top: 75px;
         
         .seccion {
             margin-left: 250px;
         }
+        #submit{
+        width: 490px;
     }
 
     .footer{
@@ -412,7 +422,7 @@ body {
 }
 
 
-@media only screen and (max-width:768px) {
+@media (max-width:768px) {
 
     .container, .container-2 {
         grid-template-columns: 1fr;
@@ -464,6 +474,7 @@ body {
         }
     }
     .container-3 {
+        margin-top: 0px;
         .seccion {
             margin-left: 150px;
         }
