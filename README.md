@@ -12,7 +12,7 @@
 
 Este proyecto corresponde a la entrega 1 realizada para Bootcamp de Desarrollador Web Full Stack UDD.
 
-Link: https://aracelidc.github.io/Proyecto_Landing/
+[Link a la página Landing]: https://aracelidc.github.io/Proyecto_Landing/
 
 Este, está enfocado en construir una página "landing" para un negocio, en este caso para una página ficticia sobre un cat-café. Se solicitó una sola página que permita establecer:
 
